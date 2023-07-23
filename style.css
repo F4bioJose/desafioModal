@@ -4,25 +4,25 @@ body {
     display: flex;
     justify-content:center ;
     align-items: center;
-    background-color: #d9cbea;
+    background-color: #cec2e6;
     height:100vh;
     
 }
 #openModal {
 background-color: blueviolet;
-color:aliceblue;
+color:rgb(230, 243, 253);
 border: solid 0px;
 border-radius: 3px;
 padding: 10px;
 position: fixed;
-
+width: 100px;
+height: 50px;
 }
 
-
-.modal-wrapper {
+.modalWrapper {
     position: fixed;
     background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 3px;
-    visibility: hidden;
+    height: 20px;
 }
