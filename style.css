@@ -1,17 +1,28 @@
-*{
-display: flex;
-box-sizing: border-box;
-
-}
-
 body {
+    
     flex-direction: column;
-    justify-content: center;
+    display: flex;
+    justify-content:center ;
     align-items: center;
-    align-content: center;
+    background-color: #d9cbea;
+    height:100vh;
     
 }
+#openModal {
+background-color: blueviolet;
+color:aliceblue;
+border: solid 0px;
+border-radius: 3px;
+padding: 10px;
+position: fixed;
 
-button {
-    
+}
+
+
+.modal-wrapper {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 3px;
+    visibility: hidden;
 }
